@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioWiki - Sobre Nós</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .banner {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="headerPlaceholder"></div>
+
+    <!-- Banner -->
+    <section class="banner">
+        <img src="assets/images/banner/banner_arvores_1920x800.png" alt="Imagem da Natureza"
+            class="img-fluid banner-image">
+    </section>
+
+    <main class="container my-5">
+        <h1 class="text-center">Sobre Nós</h1>
+
+        <p>O BioWiki é uma plataforma de conscientização ambiental que tem como objetivo informar e educar jovens sobre
+            a importância de cuidar do meio ambiente. Acreditamos que a educação é a chave para um futuro mais
+            sustentável
+            e, por isso, criamos conteúdos educativos e informativos sobre temas como mudanças climáticas, poluição,
+            desmatamento, entre outros.</p>
+
+        <h2 class="mt-5">Nossa Missão</h2>
+        <p>Nossa missão é promover a conscientização ambiental e incentivar ações sustentáveis por meio da educação e
+            informação. Queremos inspirar jovens a se tornarem agentes de mudança em suas comunidades e a adotarem
+            práticas
+            mais sustentáveis em seu dia a dia.</p>
+
+        <h2 class="mt-5">Nossa Equipe</h2>
+        <p>Nossa equipe é formada por profissionais apaixonados por educação e meio ambiente, que acreditam no poder da
+            informação para transformar o mundo. Trabalhamos juntos para criar conteúdos educativos e informativos que
+            possam inspirar e educar jovens de todo o Brasil.</p>
+
+        <h2 class="mt-5">Contato</h2>
+        <p>Se você tem alguma dúvida, sugestão ou gostaria de colaborar conosco, entre em contato pelo e-mail</p>
+    </main>
+
+
+    <!-- Footer -->
+    <div id="footerplaceholder"></div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="utils/ReusableFunctions.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        mountHeader('assets/components/', 'header.html');
+        mountFooter('assets/components/', 'footer.html');
+    });
+</script>
+
+</html>
