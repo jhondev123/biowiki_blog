@@ -12,8 +12,8 @@ footer {
 }
 
 header {
-    background-color: #5cb85c;
     padding: 10px 0;
+    background-color: #5cb85c !important;
 }
 
 /* Estilos do Banner */
