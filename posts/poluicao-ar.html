@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioWiki - Post</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="headerPlaceholder"></div>
+
+    <!-- Post -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Poluição do ar</h1>
+                <p>Publicado em 18/09/2024</p>
+                <img src="../assets/images/posts/poluicao_do_ar_2000x1300.png" alt="Queimada na Amazônia"
+                    class="img-fluid">
+                <div class="my-2">
+                    <p>A poluição do ar é um dos problemas ambientais mais graves enfrentados pela humanidade. Ela é
+                        causada pela emissão de poluentes atmosféricos, que são substâncias que prejudicam a qualidade
+                        do
+                        ar e podem causar danos à saúde das pessoas e dos animais, bem como ao meio ambiente como um
+                        todo.</p>
+                    <p>Os poluentes atmosféricos mais comuns são os gases tóxicos, como o dióxido de enxofre (SO2), o
+                        dióxido de nitrogênio (NO2) e o monóxido de carbono (CO), e as partículas sólidas, como a poeira
+                        e
+                        a fuligem. Essas substâncias são emitidas por diversas fontes, como os veículos automotores, as
+                        indústrias, as queimadas e os incêndios florestais.</p>
+                    <p>Os poluentes atmosféricos podem causar diversos problemas de saúde, como doenças respiratórias,
+                        cardiovasculares e câncer. Além disso, eles também podem prejudicar a vegetação, os ecossistemas
+                        e
+                        os recursos hídricos, contribuindo para o aquecimento global e as mudanças climáticas.</p>
+                    <p>Por isso, é importante adotar medidas para reduzir a emissão de poluentes atmosféricos, como o
+                        uso
+                        de tecnologias mais limpas, o incentivo ao transporte público e o plantio de árvores. Além
+                        disso, é
+                        fundamental conscientizar a população sobre os impactos da poluição do ar e a importância de
+                        preservar o meio ambiente.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div id="footerplaceholder"></div>
+
+</body>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="../utils/ReusableFunctions.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        mountHeader('../assets/components/', 'header.html');
+        mountFooter('../assets/components/', 'footer.html');
+    });
+</script>

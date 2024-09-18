@@ -19,7 +19,6 @@
             class="img-fluid banner-image">
     </section>
 
-    <!-- Main Content -->
     <main class="container mt-5">
         <h1>Bem-vindo ao BioWiki</h1>
         <p>Nosso objetivo é conscientizar os jovens a cuidarem do meio ambiente através de diversas plataformas!</p>
@@ -27,37 +26,36 @@
         <h2 class="mt-5">Últimos Posts</h2>
         <div class="row" id="posts-list">
             <div class="col-md-4">
-                <div class="card mb-4">
+                <div class="card h-100 d-flex flex-column mb-4">
                     <img src="/assets/images/cards/queimadas_amazonia_600x400.png" class="card-img-top"
                         alt="imagem das queimadas na amazonia">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Queimadas na Amazônia</h5>
                         <p class="card-text">Descubra os impactos das queimadas na maior floresta tropical do mundo...
                         </p>
-                        <a href="posts/queimada-amazonia.html" class="btn btn-primary">Leia mais</a>
+                        <a href="posts/queimada-amazonia.html" class="btn btn-primary mt-auto">Leia mais</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card mb-4">
+                <div class="card h-100 d-flex flex-column mb-4">
                     <img src="/assets/images/cards/economia_agua_600x400.png" class="card-img-top"
                         alt="imagem que mostra economia de agua">
-
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Como economizar água no dia a dia</h5>
                         <p class="card-text">Dicas para economizar água e ajudar o planeta...</p>
-                        <a href="posts/economizar-agua.html" class="btn btn-primary">Leia mais</a>
+                        <a href="posts/economizar-agua.html" class="btn btn-primary mt-auto">Leia mais</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card mb-4">
+                <div class="card h-100 d-flex flex-column mb-4">
                     <img src="/assets/images/cards/poluicao_do_ar_600x400.png" class="card-img-top"
                         alt="imagem que mostra a poluição por usinas">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column">
                         <h5 class="card-title">A poluição do ar e seus impactos</h5>
                         <p class="card-text">Entenda os efeitos da poluição do ar no meio ambiente...</p>
-                        <a href="posts/poluicao-ar.html" class="btn btn-primary">Leia mais</a>
+                        <a href="posts/poluicao-ar.html" class="btn btn-primary mt-auto">Leia mais</a>
                     </div>
                 </div>
             </div>
@@ -75,9 +73,6 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         mountHeader('assets/components/', 'header.html');
-    });
-
-    document.addEventListener('DOMContentLoaded', function () {
         mountFooter('assets/components/', 'footer.html');
     });
 </script>
